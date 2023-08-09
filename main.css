@@ -1,21 +1,21 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: #12bdca;
     display: flex;
+    background-color: #12bdac;
     align-items: center;
     justify-content: center;
     height: 100vh;
 }
 
-.board-wrap{
+.board_wrap{
     background-color: #0ca192;
 }
 
 .board{
     display: grid;
-    grid-template-columns: repeat(3,100px);
-    grid-template-rows: repeat(3,100px);
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
     gap: 10px;
 }
 
