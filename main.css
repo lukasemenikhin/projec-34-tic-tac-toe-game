@@ -2,14 +2,13 @@ body{
     margin: 0;
     padding: 0;
     display: flex;
-    background-color: #12bdac;
     align-items: center;
     justify-content: center;
     height: 100vh;
 }
 
 .board_wrap{
-    background-color: #0ca192;
+    background-color: grey;
 }
 
 .board{
@@ -24,15 +23,15 @@ body{
     align-items: center;
     justify-content: center;
     font-size: 60px;
-    background-color: #12bdac;
+    background-color: rgb(222, 222, 222);
     cursor: pointer;
     font-weight: 900;
 }
 
 .cell.x{
-    color: #545454;
+    color: blue;
 }
 
 .cell.o{
-    color: #f2ebd3;
+    color: red;
 }
